@@ -35,7 +35,7 @@ Une fois Java 17 installé, il vous faudra configurer votre variable JAVA\_HOME 
 \includegraphics[scale=0.5]{img/env_var.png}
 \end{figure}
 
-Une fois que vous avez trouvé la bonne variable(si elle n'y est pas, vous pouvez la créer en cliquant sur "Nouvelle..."), changez sa valeur au dossier d'installation de votre java 17. Par défaut il est dans Programmes/Java, mais si vous avez changer son dossier d'installation, mettez ce chemin dans la variable. Il est possible qu'un redémarrage soit nécessaire pour que le changement soit actif.
+Une fois que vous avez trouvé la bonne variable(si elle n'y est pas, vous pouvez la créer en cliquant sur "Nouvelle..."), changez sa valeur au dossier d'installation de votre java 17. Par défaut il est dans Programmes/Java, mais si vous avez changé son dossier d'installation, mettez ce chemin dans la variable. Il est possible qu'un redémarrage soit nécessaire pour que le changement soit effectif.
 
 \subsection{MongoDB}
 Maintenant que java est installé et configuré, on passe à MongoDB.\newline
@@ -59,7 +59,7 @@ Ensuite fermez les options et sur la page principale, là où il y a vraiment be
 Fiddler est maintenant configuré!
 
 \subsubsection{Mitmproxy}
-Pour Mitmproxy il n'y a rien à faire si vous pensez utiliser Grassclipper. 
+Pour Mitmproxy il n'y a rien à faire si vous pensez utiliser Grassclipper(ce que je recommande à 4000\% si vous voulez pas vous embêter)
 
 \section{Installation de Grasscutter}
 
@@ -87,8 +87,8 @@ Une fois tout ceci en votre possession, vous pouvez passer à l'installation de 
 Maintenant que vous avez tous les pré-requis, il est temps de passer à l'installation.\newline
 Commencez par mettre le .jar de Grasscutter dans un dossier vide, renommez le en grasscutter.jar pour simplifier.\newline
 Ensuite créez un dossier resources, et placez-y les ressources que vous aviez téléchargées.\newline
-\includegraphics[scale=1]{img/disp_resources.png}
-Maintenant les autres fichiers, déposez à la racine du dossier du serveur les dossiers "data", "keys" ainsi que le fichier "keystore.p12"\newline
+\includegraphics[scale=1]{img/disp_resources.png}\newline
+Maintenant, les autres fichiers, déposez à la racine du dossier du serveur les dossiers "data", "keys" ainsi que le fichier "keystore.p12"\newline
 Vous êtes bons pour pouvoir lancer le serveur maintenant
 
 \subsection{Version beta(2.7)}
@@ -132,8 +132,8 @@ Une fois le jeu lancé(et le serveur aussi bien entendu), il va vous falloir un 
 \includegraphics[scale=0.8]{img/account_create.png}\newline
 À savoir que l'UID est facultatif, si vous ne le rentrez pas, il sera attribué automatiquement.\newline\newline
 
-Après avoir créé votre compte, il ne reste plus qu'à vous connecter, rentrez votre nom d'utilisateur et en temps que mot de passe, n'importe quoi.\newline
-Voilà, vous devriez voir la cinématique de début du jeu!
+Après avoir créé votre compte, il ne reste plus qu'à vous connecter, rentrez votre nom d'utilisateur et en tant que mot de passe, n'importe quoi.\newline
+Voilà, cliquez sur la porte, vous devriez voir la cinématique de début du jeu!
 
 \subsection{Les commandes}
 Une liste des commandes est disponible \href{https://github.com/Grasscutters/Grasscutter/wiki/Commands}{\textcolor{blue}{ici}}
@@ -146,7 +146,8 @@ Des problèmes avec le serveur? C'est ici!
 
 \subsubsection{[WARN] Failed to load language file: fr-FR.json}
 Si vous rencontrez cette erreur, c'est tout à fait normal, car il y a un bug sur la version stable 1.1.0, et il vous faudra altérer un peu la configuration du serveur.\newline
-Ouvrez le config.json et allez à cette ligne là: "LocaleLanguage": "fr\_FR"," et changez le "fr\_FR" par "en\_US".
+Ouvrez le config.json et allez à cette ligne là: "LocaleLanguage": "fr\_FR"," et changez le "fr\_FR" par "en\_US".\newline
+Si vous ne la trouvez pas, elle est tout en bas normalement.
 
 \subsection{Grassclipper}
 Des problèmes avec Grassclipper? C'est ici!

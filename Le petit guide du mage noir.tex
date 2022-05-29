@@ -63,14 +63,91 @@ Pour Mitmproxy il n'y a rien à faire si vous pensez utiliser Grassclipper.
 \section{Installation de Grasscutter}
 
 \subsection{Version normale}
+La version normale fait référence à la version stable, pas besoin de build le jar ici.
+
+\subsubsection{Le jar de Grasscutter}
+Pour commencer, il va vous falloir le .jar de Grasscutter, récupérez la dernière version \href{https://github.com/Grasscutters/Grasscutter/releases}{\textcolor{blue}{ici}}(prenez bien la dernière version stable, et pas une version dev).
+
+\subsubsection{Les ressources}
+Pour démarrer Grasscutter il vous faudra des ressources, que vous pouvez trouver \href{https://github.com/Koko-boya/Grasscutter_Resources/tree/main}{\textcolor{blue}{ici}}. Pour les récupérer via github: cliquez sur code puis "download ZIP".
+
+\subsubsection{Les autres fichiers requis}
+Une fois les ressources en votre possession, il va vous manquer d'autres petits fichiers, à savoir:
+\begin{itemize}
+	\item Les data
+	\item Les keys
+	\item Le keystore.p12
+\end{itemize}
+
+Pour les obtenir, je vous recommande de télécharger l'archive de la \href{https://github.com/Grasscutters/Grasscutter/tree/stable}{\textcolor{blue}{branche stable de Grasscutter}}(code puis "download ZIP").\newline
+Une fois tout ceci en votre possession, vous pouvez passer à l'installation de Grasscutter!
+
+\subsubsection{Installation de Grasscutter(stable)}
+Maintenant que vous avez tous les pré-requis, il est temps de passer à l'installation.\newline
+Commencez par mettre le .jar de Grasscutter dans un dossier vide, renommez le en grasscutter.jar pour simplifier.\newline
+Ensuite créez un dossier resources, et placez-y les ressources que vous aviez téléchargées.\newline
+\includegraphics[scale=1]{img/disp_resources.png}
+Maintenant les autres fichiers, déposez à la racine du dossier du serveur les dossiers "data", "keys" ainsi que le fichier "keystore.p12"\newline
+Vous êtes bons pour pouvoir lancer le serveur maintenant
 
 \subsection{Version beta(2.7)}
 
 \section{Lancement du serveur}
+Il y a deux méthodes pour lancer le serveur:
+\begin{itemize}
+	\item Lancer via le cmd avec une commande
+	\item Lancer via Grassclipper, qui est un launcher
+\end{itemize}
+Grassclipper est bien plus simple car il vous permettra d'ignorer le lancement du proxy car il se lancera tout seul(à choisir donc si vous n'utilisez pas Fiddler)
 
 \subsection{Lancement via CMD}
 
 \subsection{Lancement via Grassclipper}
 
+\subsubsection{Téléchargement et configuration}
+Commencez par prendre la dernière version de Grassclipper, disponible \href{https://github.com/Grasscutters/GrassClipper/releases}{\textcolor{blue}{ici}} et décompressez tout dans un dossier vide.\newline
+Lancez maintenant GrassClipper.exe.\newline
+Une fois lancé, vous devriez voir ceci:\newline
+\includegraphics[scale=0.5]{img/first_grassclipper_use.png}\newline
+Cliquez sur install, Grassclipper vous installera Mitmproxy.\newline
+Si vous voyez cette erreur:\newline
+\includegraphics[scale=0.5]{img/error_cert.png}\newline
+Lancez un terminal en mode administrateur et lancez la commande qu'il vous indique.
+\newline\newline
+
+Après avoir installer le proxy, vous allez devoir indiquer à Grassclipper où est votre jeu(je vous recommande très fortement de ne pas utiliser la même installation du jeu pour jouer sur les serveurs officiels ou sur votre serveur privé), vous devrez indiquer l'exécutable du jeu, et non du launcher du jeu.\newline
+Une fois ceci fait, il vous faudra indiquer à Grassclipper que vous souhaitez lancer le serveur depuis Grassclipper. Il faut donc aller dans les options(le petit rouage en haut à droite), et cocher "enable server launcher". Vous pouvez aussi changer la langue de Grassclipper(le français est disponible).\newline
+Vous devriez maintenant voir une nouvelle partie sur la fenêtre de Grassclipper, cliquez sur "set "Grasscutter" .jar file" et indiquez où se trouve le jar de Grasscutter. 
+
+\subsubsection{Lancement}
+Une fois Grassclipper et Grasscutter configurés, cliquez sur "Launch local server", votre serveur se lancera. Il devrait vous demander quelle langue vous voulez, marquez l'abréviation de votre choix. Si vous voyez "[INFO] Game Server started on port 22102", c'est que c'est bon, sinon reportez-vous à la section sur la résolution des problèmes.\newline
+Cliquez maintenant sur "Play on Grasscutter", le proxy ainsi que le jeu se lanceront.
+
+\section{Après avoir lancé le jeu}
+Une fois le jeu lancé(et le serveur aussi bien entendu), il va vous falloir un compte, pour ça, rien de plus simple: rendez vous dans la console du serveur et rentrez ceci(modifiez avec vos propres valeurs)\newline
+\includegraphics[scale=0.8]{img/account_create.png}\newline
+À savoir que l'UID est facultatif, si vous ne le rentrez pas, il sera attribué automatiquement.\newline\newline
+
+Après avoir créé votre compte, il ne reste plus qu'à vous connecter, rentrez votre nom d'utilisateur et en temps que mot de passe, n'importe quoi.\newline
+Voilà, vous devriez voir la cinématique de début du jeu!
+
+\subsection{Les commandes}
+Une liste des commandes est disponible \href{https://github.com/Grasscutters/Grasscutter/wiki/Commands}{\textcolor{blue}{ici}}
+
+\section{Les problèmes}
+Cette section vous propose des solutions aux divers problèmes que vous pourrez rencontrer.
+
+\subsection{Grasscutter}
+Des problèmes avec le serveur? C'est ici!
+
+\subsubsection{[WARN] Failed to load language file: fr-FR.json}
+Si vous rencontrez cette erreur, c'est tout à fait normal, car il y a un bug sur la version stable 1.1.0, et il vous faudra altérer un peu la configuration du serveur.\newline
+Ouvrez le config.json et allez à cette ligne là: "LocaleLanguage": "fr\_FR"," et changez le "fr\_FR" par "en\_US".
+
+\subsection{Grassclipper}
+Des problèmes avec Grassclipper? C'est ici!
+
+\subsubsection{Une fenêtre totalement blanche}
+Si vous voyez une fenêtre entièrement blanche lorsque vous lancez Grassclipper, il vous faut \href{https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download}{\textcolor{blue}{ceci}}
 
 \end{document}

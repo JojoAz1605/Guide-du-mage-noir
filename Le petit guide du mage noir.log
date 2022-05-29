@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  29 MAY 2022 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  29 MAY 2022 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,7 +299,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/noctu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<img/env_var.png, id=75, 750.30313pt x 487.8225pt>
+<img/env_var.png, id=140, 750.30313pt x 487.8225pt>
 File: img/env_var.png Graphic file (type png)
 <use img/env_var.png>
 Package pdftex.def Info: img/env_var.png  used on input line 34.
@@ -309,16 +309,72 @@ Overfull \hbox (30.15065pt too wide) in paragraph at lines 34--35
 [][] 
  []
 
-[2 <./img/env_var.png>] [3] [4] (Le petit guide du mage noir.aux)
+[2 <./img/env_var.png>] [3]
+<img/disp_resources.png, id=158, 171.64125pt x 203.76125pt>
+File: img/disp_resources.png Graphic file (type png)
+<use img/disp_resources.png>
+Package pdftex.def Info: img/disp_resources.png  used on input line 89.
+(pdftex.def)             Requested size: 171.64081pt x 203.76074pt.
+
+Overfull \hbox (6.36162pt too wide) in paragraph at lines 86--92
+\OT1/cmr/m/n/10 Maintenant que vous avez tous les pr^^Se-requis, il est temps d
+e passer ^^Ra l'installation. 
+ []
+
+[4]
+<img/first_grassclipper_use.png, id=165, 638.385pt x 358.84062pt>
+File: img/first_grassclipper_use.png Graphic file (type png)
+<use img/first_grassclipper_use.png>
+Package pdftex.def Info: img/first_grassclipper_use.png  used on input line 111
+.
+(pdftex.def)             Requested size: 319.19171pt x 179.41986pt.
+<img/error_cert.png, id=166, 566.61688pt x 59.22125pt>
+File: img/error_cert.png Graphic file (type png)
+<use img/error_cert.png>
+Package pdftex.def Info: img/error_cert.png  used on input line 114.
+(pdftex.def)             Requested size: 283.30774pt x 29.61053pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--117
+
+ []
+
+[5 <./img/disp_resources.png>]
+Overfull \hbox (3.38937pt too wide) in paragraph at lines 123--125
+\OT1/cmr/m/n/10 Une fois Grass-clip-per et Grass-cut-ter con-figur^^Ses, clique
+z sur "Launch lo-cal server",
+ []
+
+<img/account_create.png, id=172, 291.0875pt x 111.91812pt>
+File: img/account_create.png Graphic file (type png)
+<use img/account_create.png>
+Package pdftex.def Info: img/account_create.png  used on input line 128.
+(pdftex.def)             Requested size: 232.8703pt x 89.5346pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
+
+ []
+
+[6 <./img/first_grassclipper_use.png> <./img/error_cert.png>] [7 <./img/account
+_create.png>] [8] (Le petit guide du mage noir.aux)
 Package rerunfilecheck Info: File `"Le petit guide du mage noir".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: E6B50ADA9CB6A7DA4939E2B5B9350AD1;1560.
+(rerunfilecheck)             Checksum: 69A8101EACFA108A1800FDBFEC878143;3898.
  ) 
 Here is how much of TeX's memory you used:
- 8613 strings out of 478582
- 136882 string characters out of 2844345
- 429917 words of memory out of 3000000
- 26696 multiletter control sequences out of 15000+600000
+ 8674 strings out of 478582
+ 138130 string characters out of 2844345
+ 437935 words of memory out of 3000000
+ 26736 multiletter control sequences out of 15000+600000
  473849 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,63p,459b,322s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -329,9 +385,9 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/noctu/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Le petit guide du mage noir.pdf" (4 pages, 172248 bytes).
+Output written on "Le petit guide du mage noir.pdf" (8 pages, 288927 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

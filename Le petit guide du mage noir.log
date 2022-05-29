@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  29 MAY 2022 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  29 MAY 2022 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -300,7 +300,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout4 = `"Le petit guide du mage noir.toc"'.
 
  [2]
-<img/env_var.png, id=149, 750.30313pt x 487.8225pt>
+<img/env_var.png, id=184, 750.30313pt x 487.8225pt>
 File: img/env_var.png Graphic file (type png)
 <use img/env_var.png>
 Package pdftex.def Info: img/env_var.png  used on input line 35.
@@ -311,7 +311,7 @@ Overfull \hbox (30.15065pt too wide) in paragraph at lines 35--36
  []
 
 [3 <./img/env_var.png>] [4]
-<img/disp_resources.png, id=167, 171.64125pt x 203.76125pt>
+<img/disp_resources.png, id=202, 171.64125pt x 203.76125pt>
 File: img/disp_resources.png Graphic file (type png)
 <use img/disp_resources.png>
 Package pdftex.def Info: img/disp_resources.png  used on input line 90.
@@ -323,59 +323,80 @@ e passer ^^Ra l'installation.
  []
 
 [5]
-<img/first_grassclipper_use.png, id=174, 638.385pt x 358.84062pt>
-File: img/first_grassclipper_use.png Graphic file (type png)
-<use img/first_grassclipper_use.png>
-Package pdftex.def Info: img/first_grassclipper_use.png  used on input line 112
-.
-(pdftex.def)             Requested size: 319.19171pt x 179.41986pt.
-<img/error_cert.png, id=175, 566.61688pt x 59.22125pt>
-File: img/error_cert.png Graphic file (type png)
-<use img/error_cert.png>
-Package pdftex.def Info: img/error_cert.png  used on input line 115.
-(pdftex.def)             Requested size: 283.30774pt x 29.61053pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--118
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--118
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
 [6 <./img/disp_resources.png>]
-Overfull \hbox (3.38937pt too wide) in paragraph at lines 124--126
+<img/first_grassclipper_use.png, id=218, 638.385pt x 358.84062pt>
+File: img/first_grassclipper_use.png Graphic file (type png)
+<use img/first_grassclipper_use.png>
+Package pdftex.def Info: img/first_grassclipper_use.png  used on input line 134
+.
+(pdftex.def)             Requested size: 319.19171pt x 179.41986pt.
+<img/error_cert.png, id=219, 566.61688pt x 59.22125pt>
+File: img/error_cert.png Graphic file (type png)
+<use img/error_cert.png>
+Package pdftex.def Info: img/error_cert.png  used on input line 137.
+(pdftex.def)             Requested size: 283.30774pt x 29.61053pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--140
+
+ []
+
+[7]
+Overfull \hbox (3.38937pt too wide) in paragraph at lines 146--148
 \OT1/cmr/m/n/10 Une fois Grass-clip-per et Grass-cut-ter con-figur^^Ses, clique
 z sur "Launch lo-cal server",
  []
 
-[7 <./img/first_grassclipper_use.png> <./img/error_cert.png>]
-<img/account_create.png, id=188, 291.0875pt x 111.91812pt>
+[8 <./img/first_grassclipper_use.png> <./img/error_cert.png>]
+<img/account_create.png, id=231, 291.0875pt x 111.91812pt>
 File: img/account_create.png Graphic file (type png)
 <use img/account_create.png>
-Package pdftex.def Info: img/account_create.png  used on input line 132.
+Package pdftex.def Info: img/account_create.png  used on input line 154.
 (pdftex.def)             Requested size: 232.8703pt x 89.5346pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--134
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--134
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
 
  []
 
-[8 <./img/account_create.png>] [9] (Le petit guide du mage noir.aux)
+
+Overfull \hbox (2.43875pt too wide) in paragraph at lines 167--170
+\OT1/cmr/m/n/10 "java -jar grass-cut-ter.jar -handbook". Un fichier du nom de "
+GM[]Handbook.txt"
+ []
+
+[9 <./img/account_create.png>] [10] (Le petit guide du mage noir.aux)
 Package rerunfilecheck Info: File `"Le petit guide du mage noir".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 8331A1B7D43EA08A60ADBA1336BBB6DE;4055.
+(rerunfilecheck)             Checksum: EBB853868C3648CC67D229FE5C1AFA2E;5083.
  ) 
 Here is how much of TeX's memory you used:
- 8677 strings out of 478582
- 138166 string characters out of 2844345
- 431935 words of memory out of 3000000
- 26737 multiletter control sequences out of 15000+600000
+ 8692 strings out of 478582
+ 138413 string characters out of 2844345
+ 433943 words of memory out of 3000000
+ 26744 multiletter control sequences out of 15000+600000
  473849 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,63p,462b,322s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -386,9 +407,9 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/noctu/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Le petit guide du mage noir.pdf" (9 pages, 291762 bytes).
+Output written on "Le petit guide du mage noir.pdf" (10 pages, 301487 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

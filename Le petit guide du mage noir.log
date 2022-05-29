@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  29 MAY 2022 14:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  29 MAY 2022 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -390,11 +390,11 @@ GM[]Handbook.txt"
 [9 <./img/account_create.png>] [10] (Le petit guide du mage noir.aux)
 Package rerunfilecheck Info: File `"Le petit guide du mage noir".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: EBB853868C3648CC67D229FE5C1AFA2E;5083.
+(rerunfilecheck)             Checksum: A18DFDE61088C786A87BA6D20E99EEF3;5093.
  ) 
 Here is how much of TeX's memory you used:
  8692 strings out of 478582
- 138413 string characters out of 2844345
+ 138423 string characters out of 2844345
  433943 words of memory out of 3000000
  26744 multiletter control sequences out of 15000+600000
  473849 words of font info for 43 fonts, out of 8000000 for 9000
@@ -407,7 +407,7 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/noctu/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Le petit guide du mage noir.pdf" (10 pages, 301487 bytes).
+Output written on "Le petit guide du mage noir.pdf" (10 pages, 301496 bytes).
 PDF statistics:
  282 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)

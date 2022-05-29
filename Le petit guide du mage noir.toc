@@ -15,7 +15,7 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Les ressources}{6}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Les autres fichiers}{6}{subsubsection.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.4}Le client}{6}{subsubsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.3}Installation de Grasscutter(beta)}{7}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.5}Installation de Grasscutter(beta)}{7}{subsubsection.2.2.5}%
 \contentsline {section}{\numberline {3}Lancement du serveur}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Lancement via CMD}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Lancement via Grassclipper}{7}{subsection.3.2}%

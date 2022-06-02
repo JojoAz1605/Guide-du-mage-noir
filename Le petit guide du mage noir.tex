@@ -66,13 +66,17 @@ Pour Mitmproxy il n'y a rien à faire si vous pensez utiliser Grassclipper(ce qu
 \section{Installation de Grasscutter}
 
 \subsection{Version normale}
+Update: La version stable va probablement vous causer des soucis, préférez la version de développement(oui, c'est pas logique, mais je vous jure que c'est la vérité)\newline
+
 La version normale fait référence à la version stable, pas besoin de build le jar ici.
 
 \subsubsection{Le jar de Grasscutter}
 Pour commencer, il va vous falloir le .jar de Grasscutter, récupérez la dernière version \href{https://github.com/Grasscutters/Grasscutter/releases}{\textcolor{blue}{ici}}(prenez bien la dernière version stable, et pas une version dev).
 
 \subsubsection{Les ressources}
-Pour démarrer Grasscutter il vous faudra des ressources, que vous pouvez trouver \href{https://github.com/Koko-boya/Grasscutter_Resources/tree/main}{\textcolor{blue}{ici}}. Pour les récupérer via github: cliquez sur code puis "download ZIP".
+Update: Les ressources de la 2.6 ne sont plus disponibles via github, je les ais donc upload sur google drive\newline
+
+Pour démarrer Grasscutter il vous faudra des ressources, que vous pouvez trouver \href{https://drive.google.com/file/d/1ilN0Hb3VK2AVIef7sjR0Bk3Ll_tt7Yiu/view?usp=sharing}{\textcolor{blue}{ici}}.
 
 \subsubsection{Les autres fichiers requis}
 Une fois les ressources en votre possession, il va vous manquer d'autres petits fichiers, à savoir:
@@ -93,27 +97,24 @@ Ensuite créez un dossier resources, et placez-y les ressources que vous aviez t
 Maintenant, les autres fichiers, déposez à la racine du dossier du serveur les dossiers "data", "keys" ainsi que le fichier "keystore.p12"\newline
 Vous êtes bons pour pouvoir lancer le serveur maintenant
 
-\subsection{Version beta(2.7)}
-La version beta vous permettra d'accéder à la version 2.7 pour l'instant. C'est pas forcément plus compliqué à installer, juste un peu plus instable, et ça utilise des ressources différentes.
+\subsection{Version dev}
+La version dev vous permettra d'accéder à la version 2.7 pour l'instant. C'est pas forcément plus compliqué à installer, juste un peu plus instable, et ça utilise des ressources différentes.
 
 \subsubsection{Le jar de Grasscutter}
-Voici le \href{https://drive.google.com/file/d/1cJJUqYeeMITWMGaZNTfPB751rEgFEui3/view?usp=sharing}{\textcolor{blue}{lien}}.\newline
+Pour le jar, il va vous falloir le build vous-même, commencez par télécharger \href{https://github.com/Grasscutters/Grasscutter/archive/refs/heads/development.zip}{\textcolor{blue}{ceci}}.\newline
+Ensuite, décompressez ça quelque part, et il faut double-cliquer sur le gradlew.bat, et ensuite ouvrir un terminal dans le dossier où se trouve gradlew(normalement dans le même que le gradlew.bat), et rentrer cette commande: "./gradlew jar"(sans guillemets), ça peut prendre un moment la première fois. Normalement le jar devrait se trouver dans le dossier maintenant, renommez le si besoin.
 
 \subsubsection{Les ressources}
-Voici le \href{https://github.com/Koko-boya/Grasscutter_Resources/tree/2.7}{\textcolor{blue}{lien}}, cliquez sur code puis download ZIP pour les télécharger.\newline
+Voici le \href{https://github.com/Koko-boya/Grasscutter_Resources/tree/main}{\textcolor{blue}{lien}}, cliquez sur code puis download ZIP pour les télécharger.\newline
 
 \subsubsection{Les autres fichiers}
-Vous pouvez télécharger ces fichiers \href{https://drive.google.com/file/d/12UwtBJnrxg1ZoNRVzXu9evL707Pi0bem/view?usp=sharing}{\textcolor{blue}{ici}}.
-
-\subsubsection{Le client}
-Cette méthode sera invalide dès la mise à jour officielle vers la 2.7.\newline\newline
-Vous pouvez trouver le client 2.7 \href{https://www.reddit.com/r/Genshin_Impact/comments/uyou43/direct_download_links_for_genshin_impact_27_from/}{\textcolor{blue}{ici}}, il y a aussi les packs de langue si vous voulez.
+Il n'y a que le keystore.p12 de nécessaire, il doit se trouver au même endroit que là où vous avez build le jar du serveur. Le dossier keys n'est pas nécessaire, et le dossier data sera généré automatiquement!
 
 \subsubsection{Installation de Grasscutter(beta)}
-Commencez par placer le .jar de grasscuter dans un dossier vide, renommez-le en "grasscutter.jar".\newline
+Commencez par placer le .jar de grasscuter dans un dossier vide.\newline
 Ensuite créez un dossier resources et mettez-y les ressources de la 2.7.(voir image sur la version stable parce que c'est pareil et que j'ai la flemme d'en faire une exprès)\newline
-Placez maintenant le dossier data et le fichier keystore.p12 à la racine de votre dossier Grasscutter.	\newline
-Le lancement est classique, juste qu'il vous faudra lancer l'exécutable du client 2.7 à la place.
+Placez maintenant le fichier keystore.p12 à la racine de votre dossier Grasscutter.	\newline
+Le lancement est classique.
 
 \hrulefill
 

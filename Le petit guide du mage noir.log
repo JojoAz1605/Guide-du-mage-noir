@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  2 JUN 2022 02:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  2 JUN 2022 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,12 +332,6 @@ e passer ^^Ra l'installation.
  []
 
 [5]
-Overfull \hbox (5.38943pt too wide) in paragraph at lines 104--106
-\OT1/cmr/m/n/10 Ensuite, d^^Secompressez ^^Xca quelque part, et il faut double-
-cliquer sur le gradlew.bat,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
@@ -376,86 +370,71 @@ File: img/account_create.png Graphic file (type png)
 <use img/account_create.png>
 Package pdftex.def Info: img/account_create.png  used on input line 161.
 (pdftex.def)             Requested size: 232.8703pt x 89.5346pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--163
-
- []
-
-
-Overfull \hbox (2.43875pt too wide) in paragraph at lines 178--181
+ [9 <./img/account_create.png>]
+Overfull \hbox (2.43875pt too wide) in paragraph at lines 178--180
 \OT1/cmr/m/n/10 "java -jar grass-cut-ter.jar -handbook". Un fichier du nom de "
 GM[]Handbook.txt"
  []
 
-[9 <./img/account_create.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
 
-Overfull \hbox (3.77835pt too wide) in paragraph at lines 203--204
+Overfull \hbox (3.77835pt too wide) in paragraph at lines 202--203
 \OT1/cmr/m/n/10 Vous pou-vez con-tin-uer de zieuter les diff^^Serentes con-fig-
 u-ra-tions disponibles(comme
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
-<img/grassclipper_co.png, id=256, 229.35687pt x 298.11375pt>
+<img/grassclipper_co.png, id=255, 229.35687pt x 298.11375pt>
 File: img/grassclipper_co.png Graphic file (type png)
 <use img/grassclipper_co.png>
-Package pdftex.def Info: img/grassclipper_co.png  used on input line 219.
+Package pdftex.def Info: img/grassclipper_co.png  used on input line 218.
 (pdftex.def)             Requested size: 183.48573pt x 238.49132pt.
 
-Overfull \hbox (8.65329pt too wide) in paragraph at lines 218--222
+Overfull \hbox (8.65329pt too wide) in paragraph at lines 217--221
 []\OT1/cmr/m/n/10 Si vous utilisez Grass-clip-per, vous de-vriez voir ceci(les 
 valeurs peu-vent diff^^Serer): 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--222
+Underfull \hbox (badness 10000) in paragraph at lines 217--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--222
+Underfull \hbox (badness 10000) in paragraph at lines 217--221
 
  []
 
-<img/fiddler_co.png, id=257, 653.94313pt x 176.66pt>
+<img/fiddler_co.png, id=256, 653.94313pt x 176.66pt>
 File: img/fiddler_co.png Graphic file (type png)
 <use img/fiddler_co.png>
-Package pdftex.def Info: img/fiddler_co.png  used on input line 224.
+Package pdftex.def Info: img/fiddler_co.png  used on input line 223.
 (pdftex.def)             Requested size: 392.3689pt x 105.99681pt.
 
-Overfull \hbox (47.3689pt too wide) in paragraph at lines 223--226
+Overfull \hbox (47.3689pt too wide) in paragraph at lines 222--225
 [] 
  []
 
@@ -463,7 +442,7 @@ Overfull \hbox (47.3689pt too wide) in paragraph at lines 223--226
 (Le petit guide du mage noir.aux)
 Package rerunfilecheck Info: File `"Le petit guide du mage noir".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: A359562D5E83BE8C8CF0B8A9376F9CBD;5746.
+(rerunfilecheck)             Checksum: 16AFFAB28C103B18716B54055B1110B1;5741.
  ) 
 Here is how much of TeX's memory you used:
  8715 strings out of 478582
@@ -472,7 +451,7 @@ Here is how much of TeX's memory you used:
  26760 multiletter control sequences out of 15000+600000
  473849 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,63p,462b,382s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 60i,7n,63p,462b,340s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\noctu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/noctu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -480,9 +459,9 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/noctu/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Le petit guide du mage noir.pdf" (12 pages, 415473 bytes).
+Output written on "Le petit guide du mage noir.pdf" (12 pages, 415467 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
+ 308 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
  324 words of extra memory for PDF output out of 10000 (max. 10000000)
 

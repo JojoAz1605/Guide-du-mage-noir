@@ -14,7 +14,7 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Le jar de Grasscutter}{6}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Les ressources}{6}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Les autres fichiers}{6}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Installation de Grasscutter(beta)}{7}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4}Installation de Grasscutter(dev)}{7}{subsubsection.2.2.4}%
 \contentsline {section}{\numberline {3}Lancement du serveur}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Lancement via CMD}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Lancement via Grassclipper}{7}{subsection.3.2}%
@@ -23,8 +23,8 @@
 \contentsline {section}{\numberline {4}Après avoir lancé le jeu}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Création de compte}{9}{subsection.4.1}%
 \contentsline {section}{\numberline {5}Fermer le serveur}{9}{section.5}%
-\contentsline {section}{\numberline {6}Extra}{9}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Le handbook}{9}{subsection.6.1}%
+\contentsline {section}{\numberline {6}Extra}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Le handbook}{10}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Les commandes}{10}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Le multijoueur}{10}{subsection.6.3}%
 \contentsline {subsubsection}{\numberline {6.3.1}Configurer le serveur pour recevoir des gens}{10}{subsubsection.6.3.1}%

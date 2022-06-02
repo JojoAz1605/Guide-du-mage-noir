@@ -102,7 +102,7 @@ La version dev vous permettra d'accéder à la version 2.7 pour l'instant. C'est
 
 \subsubsection{Le jar de Grasscutter}
 Pour le jar, il va vous falloir le build vous-même, commencez par télécharger \href{https://github.com/Grasscutters/Grasscutter/archive/refs/heads/development.zip}{\textcolor{blue}{ceci}}.\newline
-Ensuite, décompressez ça quelque part, et il faut double-cliquer sur le gradlew.bat, et ensuite ouvrir un terminal dans le dossier où se trouve gradlew(normalement dans le même que le gradlew.bat), et rentrer cette commande: "./gradlew jar"(sans guillemets), ça peut prendre un moment la première fois. Normalement le jar devrait se trouver dans le dossier maintenant, renommez le si besoin.
+Décompressez ça quelque part, il faut ensuite double-cliquer sur le gradlew.bat, et ouvrir un terminal dans le dossier où se trouve gradlew(normalement dans le même que le gradlew.bat), et rentrer cette commande: "./gradlew jar"(sans guillemets), ça peut prendre un moment la première fois. Normalement le jar devrait se trouver dans le dossier maintenant, renommez le si besoin.
 
 \subsubsection{Les ressources}
 Voici le \href{https://github.com/Koko-boya/Grasscutter_Resources/tree/main}{\textcolor{blue}{lien}}, cliquez sur code puis download ZIP pour les télécharger.\newline
@@ -110,7 +110,7 @@ Voici le \href{https://github.com/Koko-boya/Grasscutter_Resources/tree/main}{\te
 \subsubsection{Les autres fichiers}
 Il n'y a que le keystore.p12 de nécessaire, il doit se trouver au même endroit que là où vous avez build le jar du serveur. Le dossier keys n'est pas nécessaire, et le dossier data sera généré automatiquement!
 
-\subsubsection{Installation de Grasscutter(beta)}
+\subsubsection{Installation de Grasscutter(dev)}
 Commencez par placer le .jar de grasscuter dans un dossier vide.\newline
 Ensuite créez un dossier resources et mettez-y les ressources de la 2.7.(voir image sur la version stable parce que c'est pareil et que j'ai la flemme d'en faire une exprès)\newline
 Placez maintenant le fichier keystore.p12 à la racine de votre dossier Grasscutter.	\newline
@@ -124,7 +124,7 @@ Il y a deux méthodes pour lancer le serveur:
 	\item Lancer via le cmd avec une commande
 	\item Lancer via Grassclipper, qui est un launcher
 \end{itemize}
-Grassclipper est bien plus simple car il vous permettra d'ignorer le lancement du proxy car il se lancera tout seul(à choisir donc si vous n'utilisez pas Fiddler)
+Grassclipper est bien plus simple puisqu'il vous permettra d'ignorer le lancement du proxy car il se lancera tout seul(à choisir donc si vous n'utilisez pas Fiddler)
 
 \subsection{Lancement via CMD}
 Pour lancer via le CMD, il suffit d'ouvrir un terminal dans le dossier de Grasscutter(là où il y a le grasscutter.jar) et de lancer cette commande: "java -jar grasscutter.jar"(sans guillemets). Le serveur devrait se lancer, mais il vous faudra un proxy pour y accéder(Fiddler est préféré ici).
@@ -145,7 +145,7 @@ Lancez un terminal en mode administrateur et lancez la commande qu'il vous indiq
 
 Après avoir installé le proxy, vous allez devoir indiquer à Grassclipper où est votre jeu(je vous recommande très fortement de ne pas utiliser la même installation du jeu pour jouer sur les serveurs officiels ou sur votre serveur privé), vous devrez indiquer l'exécutable du jeu, et non du launcher du jeu.\newline
 Une fois ceci fait, il vous faudra indiquer à Grassclipper que vous souhaitez lancer le serveur depuis Grassclipper. Il faut donc aller dans les options(le petit rouage en haut à droite), et cocher "enable server launcher". Vous pouvez aussi changer la langue de Grassclipper(le français est disponible).\newline
-Vous devriez maintenant voir une nouvelle partie sur la fenêtre de Grassclipper, cliquez sur "set "Grasscutter" .jar file" et indiquez où se trouve le jar de Grasscutter. 
+Vous devriez maintenant voir une nouvelle partie sur la fenêtre de Grassclipper, cliquez sur 'set "Grasscutter" .jar file' et indiquez où se trouve le jar de Grasscutter. 
 
 \subsubsection{Lancement}
 Une fois Grassclipper et Grasscutter configurés, cliquez sur "Launch local server", votre serveur se lancera. Il devrait vous demander quelle langue vous voulez, marquez l'abréviation de votre choix. Si vous voyez "[INFO] Game Server started on port 22102", c'est que c'est bon, sinon reportez-vous à la section sur la résolution des problèmes.\newline
@@ -159,8 +159,7 @@ Voici quoi faire après avoir lancé le jeu!
 \subsection{Création de compte}
 Une fois le jeu lancé(et le serveur aussi bien entendu), il va vous falloir un compte, pour ça, rien de plus simple: rendez vous dans la console du serveur et rentrez ceci(modifiez avec vos propres valeurs)\newline
 \includegraphics[scale=0.8]{img/account_create.png}\newline
-À savoir que l'UID est facultatif, si vous ne le rentrez pas, il sera attribué automatiquement.\newline\newline
-
+À savoir que l'UID est un nombre, et qu'il est facultatif, si vous ne le rentrez pas, il sera attribué automatiquement.\newline
 Après avoir créé votre compte, il ne reste plus qu'à vous connecter, rentrez votre nom d'utilisateur et en tant que mot de passe, n'importe quoi.\newline
 Voilà, cliquez sur la porte, vous devriez voir la cinématique de début du jeu!
 
@@ -170,6 +169,7 @@ Voilà, cliquez sur la porte, vous devriez voir la cinématique de début du jeu
 Pour fermer le serveur, il vous suffit de fermer le jeu, pour commencer, ensuite faites un CTRL+C dans le terminal du serveur, deux fois, et le serveur devrait s'arrêter, en fermant au passage le proxy si jamais vous étiez avec Grassclipper.
 
 \hrulefill
+\newpage
 
 \section{Extra}
 Vous trouverez ici des petits extras, comme la génération du handbook par exemple!
@@ -177,7 +177,6 @@ Vous trouverez ici des petits extras, comme la génération du handbook par exem
 \subsection{Le handbook}
 Le handbook vous servira à retrouver tous les IDs, que ce soit les personnages, les matériaux ou les armes.\newline
 Pour le générer, ouvrez un terminal dans le dossier de Grasscutter, et rentrez "java -jar grasscutter.jar -handbook". Un fichier du nom de "GM\_Handbook.txt" devrait être apparu dans le dossier de Grasscutter.\newline
-Le handbook ne peut pas être généré avec la version 2.7(je n'ai pas réussi personnellement), il vous faudra le récupérer sur le \href{https://discord.gg/ZwKEJn7sxT}{\textcolor{blue}{discord}}.
 
 \subsection{Les commandes}
 Une liste des commandes est disponible \href{https://github.com/Grasscutters/Grasscutter/wiki/Commands}{\textcolor{blue}{ici}}
@@ -186,24 +185,24 @@ Une liste des commandes est disponible \href{https://github.com/Grasscutters/Gra
 Après beaucoup, beaucoup de temps passé à essayer de le faire marcher, il marche enfin!!
 
 \subsubsection{Configurer le serveur pour recevoir des gens}
-Il vous faut \textbf{obligatoirement} une box internet pour que cela fonctionne, et il faut que vous ayez accès au panneau de configuration(ou administration) de celle-ci, pour pouvoir ouvrir certains ports.\newline\newline
+Il vous faut \textbf{obligatoirement} une box internet pour que cela fonctionne, et il faut que vous ayez accès au panneau de configuration(ou administration) de celle-ci, pour pouvoir ouvrir certains ports.\newline
 
-C'est assez simple en réalité, il va vous falloir ouvrir le config.json situé au même endroit que le jar de votre serveur, et éditer quelques lignes:
+C'est assez simple en réalité, il va vous falloir ouvrir le config.json situé au même endroit que le jar de votre serveur(vous devez avoir lancé au moins une fois le serveur), et éditer quelques lignes:
 \begin{itemize}
 	\item Sous server:
 		\begin{itemize}
 			\item bindAdress, mettez votre adresse IP publique(au format IPv4), vous pouvez la trouver dans le panneau de configuration de votre box internet.
 			\item accessAdress, mettez une valeur identique à celle du dessus.
 		\end{itemize}
-	\item sous game
+	\item Sous game
 		\begin{itemize}
 			\item accessAdress, mettez aussi votre adresse IP publique.
 		\end{itemize}
 \end{itemize}
-Vous pouvez continuer de zieuter les différentes configurations disponibles(comme le message s'affichant en entrant dans le serveur, etc...), puis sauvegardez le config.json, voilà, votre serveur est configuré pour accueillir du monde!\newline\newline
+Vous pouvez continuer de zieuter les différentes configurations disponibles(comme le message s'affichant en entrant dans le serveur, etc...), puis sauvegardez le config.json, voilà, votre serveur est configuré pour accueillir du monde!\newline
 
 Mais que le serveur soit configuré ne suffit pas, il faut aussi configurer votre box internet, rien de bien compliqué en théorie, mais sachez que cela dépend beaucoup de votre FAI.\newline
-Pour commencer, il va vous falloir activer la redirection de ports. Une fois cette fonctionnalité activée, il va vous falloir ouvrir et redirigés(vers la machine qui héberge) 4 ports précis, à savoir:
+Pour commencer, il va vous falloir activer la redirection de ports. Une fois cette fonctionnalité activée, il va vous falloir ouvrir et rediriger(vers la machine qui héberge) 4 ports précis, à savoir:
 \begin{itemize}
 	\item 443
 	\item 8888
@@ -234,7 +233,7 @@ Des problèmes avec le serveur? C'est ici!
 
 \subsubsection{[WARN] Failed to load language file: fr-FR.json}
 Si vous rencontrez cette erreur, c'est tout à fait normal, car il y a un bug sur la version stable 1.1.0, et il vous faudra altérer un peu la configuration du serveur.\newline
-Ouvrez le config.json et allez à cette ligne là: "LocaleLanguage": "fr\_FR"," et changez le "fr\_FR" par "en\_US".\newline
+Ouvrez le config.json et allez à cette ligne là: 'LocaleLanguage": "fr\_FR",' et changez le "fr\_FR" par "en\_US".\newline
 Si vous ne la trouvez pas, elle est tout en bas normalement.
 
 \subsection{Grassclipper}

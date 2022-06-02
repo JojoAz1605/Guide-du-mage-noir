@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  30 MAY 2022 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.2)  2 JUN 2022 02:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -300,7 +300,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout4 = `"Le petit guide du mage noir.toc"'.
 
  [2]
-<img/env_var.png, id=194, 750.30313pt x 487.8225pt>
+<img/env_var.png, id=204, 750.30313pt x 487.8225pt>
 File: img/env_var.png Graphic file (type png)
 <use img/env_var.png>
 Package pdftex.def Info: img/env_var.png  used on input line 35.
@@ -311,7 +311,7 @@ Overfull \hbox (30.15065pt too wide) in paragraph at lines 35--36
  []
 
 [3 <./img/env_var.png>] [4]
-<img/disp_resources.png, id=212, 171.64125pt x 203.76125pt>
+<img/disp_resources.png, id=222, 171.64125pt x 203.76125pt>
 File: img/disp_resources.png Graphic file (type png)
 <use img/disp_resources.png>
 Package pdftex.def Info: img/disp_resources.png  used on input line 92.
@@ -338,13 +338,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
  []
 
 [6 <./img/disp_resources.png>]
-<img/first_grassclipper_use.png, id=228, 638.385pt x 358.84062pt>
+<img/first_grassclipper_use.png, id=238, 638.385pt x 358.84062pt>
 File: img/first_grassclipper_use.png Graphic file (type png)
 <use img/first_grassclipper_use.png>
 Package pdftex.def Info: img/first_grassclipper_use.png  used on input line 138
 .
 (pdftex.def)             Requested size: 319.19171pt x 179.41986pt.
-<img/error_cert.png, id=229, 566.61688pt x 59.22125pt>
+<img/error_cert.png, id=239, 566.61688pt x 59.22125pt>
 File: img/error_cert.png Graphic file (type png)
 <use img/error_cert.png>
 Package pdftex.def Info: img/error_cert.png  used on input line 141.
@@ -366,7 +366,7 @@ z sur "Launch lo-cal server",
  []
 
 [8 <./img/first_grassclipper_use.png> <./img/error_cert.png>]
-<img/account_create.png, id=241, 291.0875pt x 111.91812pt>
+<img/account_create.png, id=251, 291.0875pt x 111.91812pt>
 File: img/account_create.png Graphic file (type png)
 <use img/account_create.png>
 Package pdftex.def Info: img/account_create.png  used on input line 160.
@@ -387,19 +387,87 @@ Overfull \hbox (2.43875pt too wide) in paragraph at lines 177--180
 GM[]Handbook.txt"
  []
 
-[9 <./img/account_create.png>] [10] (Le petit guide du mage noir.aux)
+[9 <./img/account_create.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+
+Overfull \hbox (3.77835pt too wide) in paragraph at lines 202--203
+\OT1/cmr/m/n/10 Vous pou-vez con-tin-uer de zieuter les diff^^Serentes con-fig-
+u-ra-tions disponibles(comme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+<img/grassclipper_co.png, id=263, 229.35687pt x 298.11375pt>
+File: img/grassclipper_co.png Graphic file (type png)
+<use img/grassclipper_co.png>
+Package pdftex.def Info: img/grassclipper_co.png  used on input line 218.
+(pdftex.def)             Requested size: 183.48573pt x 238.49132pt.
+
+Overfull \hbox (8.65329pt too wide) in paragraph at lines 217--221
+[]\OT1/cmr/m/n/10 Si vous utilisez Grass-clip-per, vous de-vriez voir ceci(les 
+valeurs peu-vent diff^^Serer): 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--221
+
+ []
+
+<img/fiddler_co.png, id=264, 653.94313pt x 176.66pt>
+File: img/fiddler_co.png Graphic file (type png)
+<use img/fiddler_co.png>
+Package pdftex.def Info: img/fiddler_co.png  used on input line 223.
+(pdftex.def)             Requested size: 392.3689pt x 105.99681pt.
+
+Overfull \hbox (47.3689pt too wide) in paragraph at lines 222--225
+[] 
+ []
+
+[11 <./img/grassclipper_co.png>] [12 <./img/fiddler_co.png>]
+(Le petit guide du mage noir.aux)
 Package rerunfilecheck Info: File `"Le petit guide du mage noir".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: E305CAC04BB33DF0251A254BD66DA0E5;5359.
+(rerunfilecheck)             Checksum: 25213D5360F7D27054287D93E2389DE5;5898.
  ) 
 Here is how much of TeX's memory you used:
- 8696 strings out of 478582
- 138473 string characters out of 2844345
- 434943 words of memory out of 3000000
- 26746 multiletter control sequences out of 15000+600000
+ 8717 strings out of 478582
+ 138916 string characters out of 2844345
+ 435946 words of memory out of 3000000
+ 26761 multiletter control sequences out of 15000+600000
  473849 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,63p,462b,322s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 60i,7n,63p,462b,382s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\noctu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/noctu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -407,9 +475,9 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/noctu/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/noctu/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Le petit guide du mage noir.pdf" (10 pages, 303782 bytes).
+Output written on "Le petit guide du mage noir.pdf" (12 pages, 416457 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 

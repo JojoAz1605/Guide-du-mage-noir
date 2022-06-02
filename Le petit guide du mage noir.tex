@@ -182,7 +182,46 @@ Le handbook ne peut pas être généré avec la version 2.7(je n'ai pas réussi 
 Une liste des commandes est disponible \href{https://github.com/Grasscutters/Grasscutter/wiki/Commands}{\textcolor{blue}{ici}}
 
 \subsection{Le multijoueur}
-Alors ça, ça va attendre parce que j'ai tout essayé, ça veut pas marcher.
+Après beaucoup, beaucoup de temps passé à essayer de le faire marcher, il marche enfin!!
+
+\subsubsection{Configurer le serveur pour recevoir des gens}
+Il vous faut \textbf{obligatoirement} une box internet pour que cela fonctionne, et il faut que vous ayez accès au panneau de configuration(ou administration) de celle-ci, pour pouvoir ouvrir certains ports.\newline\newline
+
+C'est assez simple en réalité, il va vous falloir ouvrir le config.json situé au même endroit que le jar de votre serveur, et éditer quelques lignes:
+\begin{itemize}
+	\item Sous server:
+		\begin{itemize}
+			\item bindAdress, mettez votre adresse IP publique(au format IPv4), vous pouvez la trouver dans le panneau de configuration de votre box internet.
+			\item accessAdress, mettez une valeur identique à celle du dessus.
+		\end{itemize}
+	\item sous game
+		\begin{itemize}
+			\item accessAdress, mettez aussi votre adresse IP publique.
+		\end{itemize}
+\end{itemize}
+Vous pouvez continuer de zieuter les différentes configurations disponibles(comme le message s'affichant en entrant dans le serveur, etc...), puis sauvegardez le config.json, voilà, votre serveur est configuré pour accueillir du monde!\newline\newline
+
+Mais que le serveur soit configuré ne suffit pas, il faut aussi configurer votre box internet, rien de bien compliqué en théorie, mais sachez que cela dépend beaucoup de votre FAI.\newline
+Pour commencer, il va vous falloir activer la redirection de ports. Une fois cette fonctionnalité activée, il va vous falloir ouvrir et redirigés(vers la machine qui héberge) 4 ports précis, à savoir:
+\begin{itemize}
+	\item 443
+	\item 8888
+	\item 22102
+	\item 80
+\end{itemize}
+Une fois ces ports ouverts, vous êtes bon normalement!
+
+\subsubsection{Connexion à un serveur distant}
+Pour vous connecter, Il va vous falloir un proxy, et un client, c'est tout!\newline\newline
+
+Si vous utilisez Grassclipper, vous devriez voir ceci(les valeurs peuvent différer):\newline
+\includegraphics[scale=0.8]{img/grassclipper_co.png}\newline
+Là où il y a marqué "127.0.0.1", c'est là où vous devrez rentrer l'adresse IP du serveur de destination, et le "443" à côté, le port, qui par défaut est 443.\newline
+Appuyez ensuite sur "Play on Grasscutter", et vous devriez être bon!\newline\newline
+
+Si vous utilisez Fiddler, ce n'est pas si différent, juste que l'interface est différente, vous devrez directement changer l'adresse IP et le port dans le script(ici j'ai remplacé le localhost par ce qui est surligné).\newline
+\includegraphics[scale=0.6]{img/fiddler_co.png}\newline
+Et donc, même remarque que pour la connexion avec Grassclipper.
 
 \hrulefill
 
